@@ -1,5 +1,5 @@
 .bg-kalender {
-    background-image: url("/assets/img/jul-bakgrund.jpg");
+    background-image: url("../assets/img/jul-bakgrund.jpg");
     /* placerar bakgrunden till vänster, blev bäst så */
     background-position: left;
     min-height: 100vh;
@@ -58,5 +58,10 @@
 
 #kalender-date {
     color: black;
+}
+
+.extra-padding-sides{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
