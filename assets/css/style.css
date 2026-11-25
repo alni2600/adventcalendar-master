@@ -1,0 +1,62 @@
+.bg-kalender {
+    background-image: url("/assets/img/jul-bakgrund.jpg");
+    /* placerar bakgrunden till vänster, blev bäst så */
+    background-position: left;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.card,
+.font-festive {
+    font-family: 'Mountains of Christmas';
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.border-thick {
+    border-width: 3px;
+}
+.toned-background {
+    background: rgba(0, 0, 0, 0.5);
+}
+.card {
+    border-color: #fff;
+}
+
+.big h2 {
+    font-size: 4rem;
+}
+
+.card:hover {
+    border-color: #d4af37;
+    color: #d4af37;
+}
+
+.secret-code {
+    border: 3px solid #8dacc3;
+    background-color: #c1d4e3;
+}
+
+.cheat-text {
+    border: 3px solid #ce2b5c;
+    background-color: #f3aac0;
+}
+
+.modal-content {
+    background-color: rgba(128, 3, 3, 0.884);
+    position: relative;
+    background-size: cover;
+}
+
+#kalender-date {
+    color: black;
+}
+
